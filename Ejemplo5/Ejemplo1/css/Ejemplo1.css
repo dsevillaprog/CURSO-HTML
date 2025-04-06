@@ -1,0 +1,177 @@
+/* Hoja de estilos externa de: Ejemplo 5.1 */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    /*border: solid red 1px;*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+
+
+
+nav {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #76cece;
+}
+
+a:visited {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    padding: 0.7%;
+    text-decoration: none;
+    color: rgb(14, 11, 180);
+    background-color: #76cece;
+    text-shadow: #888a85;
+}
+
+a:active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #8ae234;
+}
+
+
+
+
+table,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.columna1 {
+    background-color: #bef9f9;
+}
+
+.columna2 {
+    background-color: #76ce80;
+}
+
+.columna3 {
+    background-color: #e3aaf2;
+}
+
+.columna4 {
+    background-color: #e4f5c2;
+}
+
+thead {
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #a8bef7;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #d4f5a3;
+}
+
+tfoot {
+    background-color: #ffb7b7dd;
+}
+
+
+
+nav {
+    background-color: #003580;
+    padding: 10px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+    color: #c9caf6bd;
+    margin: 0 15px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+a:active {
+    color: #8b4ac4;
+}
+
+a:hover {
+    color: #004aad;
+    background-color: #b2b3f6bd;
+}
+
+a:visited {
+    color: #9000ad;
+    background-color: #9293f1bd;
+}
+
+
+
+
+footer {
+    background-color: #004bad76;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.end_menu nav {
+    color: #012554d6;
+    text-shadow: rgba(57, 63, 100, 1);
+    padding: 0.2% 0.2%;
+    margin: 0;
+    text-align: center;
+    font-weight: 20px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.a_inicio a:hover {
+    color: #056ffa;
+    font-weight: bold;
+    background-color: #ededffbd;
+    text-shadow: #45caff 1px 1px 1px;
+}
+
+.copyrigth {
+    color: #c3c9e3;
+    background-color: #011733d6;
+    padding: 10px 0px 6px 0px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

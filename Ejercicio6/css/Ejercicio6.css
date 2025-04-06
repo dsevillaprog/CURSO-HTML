@@ -1,0 +1,95 @@
+/* Hoja de estilos externa de: Ejercicio 6 */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #76cece;
+}
+
+a:visited {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(14, 11, 180);
+    background-color: #76cece;
+    text-shadow: rgba(4, 73, 105, 0.3);
+    padding: 0.7%;
+}
+
+a:active {
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(15, 105, 133);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-position: center;
+}
+
+.grid-link-container {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    background-position: center;
+}
+
+.menu {
+    background-color: #200c8d;
+    text-shadow: rgba(57, 63, 100, 0.8);
+    color: rgb(196, 201, 243);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 90%;
+}
+
+footer {
+    background-color: #04033d;
+    color: rgb(169, 158, 229);
+    text-shadow: rgb(196, 201, 243);
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    float: none;
+    width: 100%;
+    overflow: hidden;
+}

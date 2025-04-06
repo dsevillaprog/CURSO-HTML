@@ -1,0 +1,51 @@
+/* Hoja de estilos externa de: Ejercicio 7 */
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+table,
+th,
+td {
+    text-align: left;
+    margin: 0;
+    padding: 1%;
+    border: solid 1px rgb(155, 155, 245);
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    background-color: rgba(168, 213, 253, 0.611);
+    min-width: 150px;
+    text-align: center;
+}
+
+.colspan {
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    border: solid 1px rgb(5, 5, 236);
+    border-collapse: separate;
+    width: 70%;
+
+}
+
+.rowspan {
+    text-align: center;
+    margin: 0;
+    padding: 1%;
+    border: solid 1px rgb(143, 250, 209);
+    border-collapse: unset;
+    width: 50%;
+
+}

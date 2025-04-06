@@ -1,0 +1,20 @@
+/* Hoja de estilos externa de: Ejercicio 3 */
+h1 {
+    text-align: center
+}
+
+h2 {
+    color: blue
+}
+
+a:link {
+    text-decoration: none;
+}
+
+body {
+    background-color: #F7F0E2;
+}
+
+ol li {
+    margin: 5%;
+}

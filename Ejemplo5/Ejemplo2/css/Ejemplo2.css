@@ -1,0 +1,131 @@
+/* Hoja de estilos externa de: Ejemplo 5.2 */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    /*border: solid red 1px;*/
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+nav {
+    text-align: center;
+    padding: 1%;
+    margin: 0;
+    border: 0;
+    width: 100%;
+}
+
+
+
+table {
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 3em;
+    width: 50%;
+}
+
+td {
+    padding: 5px;
+    border-style: solid;
+    background-color: beige;
+}
+
+th {
+    padding: 5px;
+    border-style: solid;
+    background-color: bisque;
+}
+
+
+a {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #76cece;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(14, 11, 180);
+    background-color: #76cece;
+    text-shadow: #888a85;
+}
+
+nav {
+    background-color: #003580;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+#titulo-web {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.slogan {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    color: white;
+    background-color: #004bad76;
+    text-align: center;
+    margin-top: 40px;
+    padding: 0;
+    width: 100%;
+}
+
+.end_menu nav {
+    font-weight: 20px;
+    text-align: center;
+    color: #012554d6;
+    text-shadow: rgba(57, 63, 100, 1);
+    border-radius: 6px;
+    padding: 0.2% 0.2%;
+    margin: 0;
+    width: 100%;
+}
+
+.a_inicio a:hover {
+    font-weight: bold;
+    color: #056ffa;
+    background-color: #ededffbd;
+    text-shadow: #45caff 1px 1px 1px;
+}
+
+.copyrigth {
+    color: #c3c9e3;
+    background-color: #011733d6;
+    padding: 10px 0px 6px 0px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

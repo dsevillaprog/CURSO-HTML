@@ -1,0 +1,26 @@
+/* Hoja de estilos externa de: Ejercicio 4 */
+html,
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    color: blue
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(162, 1, 207);
+}
+
+.cookies {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+}
